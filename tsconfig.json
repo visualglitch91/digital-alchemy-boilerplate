@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "alwaysStrict": false,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "lib": ["ESNext"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "outDir": "./build",
+    "strictBindCallApply": true,
+    "strictFunctionTypes": false,
+    "target": "ESNext",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "$services/*": ["./services/*"]
+    }
+  },
+  "include": ["services/**/*.ts", "main.ts"]
+}
